@@ -1,4 +1,7 @@
 # HDBSCAN-LLMs
+#install streamlit and depedencies
+~streamlit run .\cluster_euproject.py
+
 Harnessing the Power of Large Language Models and Traditional Machine Learning: A Hybrid Approach for Next-Gen AI Solutions
 It's super cool to have a GenAI solution for your organization but is GenAI solely the best solution? 
 
