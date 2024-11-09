@@ -55,11 +55,11 @@ Yes, your thinking is correct, this is when LLMs can help and is proved to be ve
 I have a text clustering output from European projects with popular terms and frequencies below, give me the Cluster name or topic in one sentence with less than 10 words.
 This is the output with LLMs as cluster interpreter:
 
-
-
-
 HDBSCAN clusters with LLM as cluster intepreter.
 Now we can automatically generate summary for the detected clusters:
+
+![image](https://github.com/user-attachments/assets/7f2dd07b-857d-4905-9592-64accadfdcda)
+
 
 European project for strong, sustainable local development.
 European project encourages farmers to innovate and strengthen environmentally friendly practices.
