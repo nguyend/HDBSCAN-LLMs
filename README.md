@@ -1,12 +1,15 @@
 # HDBSCAN-LLMs
-#install streamlit and depedencies
+# Usage:
+install streamlit and depedencies
 
-#Run streamlit app on localhost
+Run streamlit app on localhost
 
 ~streamlit run .\cluster_euproject.py
 
-Harnessing the Power of Large Language Models and Traditional Machine Learning: A Hybrid Approach for Next-Gen AI Solutions
+# Harnessing the Power of Large Language Models and Traditional Machine Learning: A Hybrid Approach for Next-Gen AI Solutions
 It's super cool to have a GenAI solution for your organization but is GenAI solely the best solution? 
+
+![image](https://github.com/user-attachments/assets/fe4a5378-45c7-40ab-b735-59e8efbfdd20)
 
 In the world of AI, it’s tempting to default to Generative AI (GenAI) as the go-to approach. But is it truly the optimal solution for every scenario? To make informed, effective, and cost-efficient design choices, we need to understand the strengths and limitations of Large Language Models (LLMs) to ensure they’re delivering genuine business value.
 
@@ -46,13 +49,15 @@ Without LLMs, how will HDBSCAN clusters look like?
 
 As public Call Center Logs data is not available, for demo purpose, I have built a Streamlit app analyzing European project open data (http://data.europa.eu/88u/dataset/eu-results-projects).
 
+![image](https://github.com/user-attachments/assets/0499be25-1dbc-4a82-82a3-8ee31575f136)
 
 HDBSCAN with dynamic clustering.
 Setting specific filters, 3 dynamic clusters based on a few thousands of records are generated in just a couple of seconds and with Zero API request cost. But what is missing from here? We only have frequent keywords in each clusters and will need data scientists to interpret the results before communicate to business managers!!!
 
 Yes, your thinking is correct, this is when LLMs can help and is proved to be very efficient. Here you go with simple Prompting:
 
-I have a text clustering output from European projects with popular terms and frequencies below, give me the Cluster name or topic in one sentence with less than 10 words.
+"I have a text clustering output from European projects with popular terms and frequencies below, give me the Cluster name or topic in one sentence with less than 10 words."
+
 This is the output with LLMs as cluster interpreter:
 
 HDBSCAN clusters with LLM as cluster intepreter.
