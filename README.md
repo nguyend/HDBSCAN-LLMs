@@ -1,5 +1,8 @@
 # HDBSCAN-LLMs
 #install streamlit and depedencies
+
+#Run streamlit app on localhost
+
 ~streamlit run .\cluster_euproject.py
 
 Harnessing the Power of Large Language Models and Traditional Machine Learning: A Hybrid Approach for Next-Gen AI Solutions
