@@ -100,22 +100,22 @@ def display_topic_cluster(n):
 
     data_text = word_freq[0:30].to_csv()
 
-    chat_completion = client.chat.completions.create(
-    messages=[
-        {
-            "role": "user",
-            "content": prompt+data_text,
-        }
-    ],
-    model="gpt-4",
-    )
+    # chat_completion = client.chat.completions.create(
+    # messages=[
+    #     {
+    #         "role": "user",
+    #         "content": prompt+data_text,
+    #     }
+    # ],
+    # model="gpt-4",
+    # )
 
-    topic = chat_completion.choices[0].message.content
-    try:
-        topic = eval(topic)
-    except:
-        print(topic)
-    #topic = "Cluster"
+    # topic = chat_completion.choices[0].message.content
+    # try:
+    #     topic = eval(topic)
+    # except:
+    #     print(topic)
+    topic = "Cluster"
 
     
     if n>0:
